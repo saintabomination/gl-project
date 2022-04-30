@@ -1,7 +1,14 @@
+#include <GLFW/glfw3.h>
 #include <iostream>
 
 int main()
 {
-  std::cout << "Initial Commit!" << std::endl;
+  if (!glfwInit())
+  {
+    std::cout << "Failed to initialise GLFW!" << std::endl;
+    return -1;
+  }
+
+  glfwTerminate();
   return 0;
 }
