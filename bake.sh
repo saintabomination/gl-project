@@ -2,7 +2,7 @@
 
 PROJECT_NAME="gl"
 COMPILER="g++"
-LIBRARIES="-lglfw -pthread -ldl -lGLU -lGL -lrt -lXrandr -lXxf86vm -lXi -lXinerama -lX11"
+LIBRARIES="-lglfw -pthread -ldl -lGLU -lGL -lGLEW -lrt -lXrandr -lXxf86vm -lXi -lXinerama -lX11"
 
 $COMPILER -c src/Main.cpp
 mkdir -p build
