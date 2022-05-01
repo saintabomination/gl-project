@@ -1,9 +1,5 @@
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include <iostream>
-
-const unsigned int WINDOW_WIDTH = 800;
-const unsigned int WINDOW_HEIGHT = 600;
+#include "./Headers.h"
+#include "./Constants.h"
 
 const char* vertexShaderSource =
   "#version 330 core\n"
